@@ -6,12 +6,12 @@ import React, { useEffect } from 'react';
 
 function UpcomingDateDisplay() {
 
-    useEffect(() => {
-        fetch('/dayts')
-        .then(res => res.json())
-        .then(console.log)
+    // useEffect(() => {
+    //     fetch('/dayts')
+    //     .then(res => res.json())
+    //     .then(console.log)
 
-    }, [])
+    // }, [])
 
   return (
     <div>
